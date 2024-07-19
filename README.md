@@ -1,44 +1,14 @@
-# FILEPATH
+Welcome to the README file for the "wifitools" project! In this project, we aim to provide a comprehensive set of tools and utilities for managing and optimizing Wi-Fi networks. Whether you're a network administrator, a developer, or simply a Wi-Fi enthusiast, this project has something for you.
 
-def calculate_average(numbers):
-    """
-    Calculates the average of a list of numbers.
+Our goal is to simplify the process of troubleshooting, analyzing, and improving Wi-Fi performance. With our collection of tools, you'll be able to diagnose connectivity issues, measure signal strength, identify interference sources, and much more. We believe that by equipping users with the right tools and knowledge, we can empower them to create reliable and high-performing Wi-Fi networks.
 
-    Parameters:
-    numbers (list): A list of numbers.
+In this README, you'll find detailed documentation on how to install, configure, and use the various tools included in this project. We'll also provide examples and best practices to help you get the most out of your Wi-Fi network. So, whether you're a seasoned professional or just getting started, we're confident that you'll find value in the "wifitools" project.
 
-    Returns:
-    float: The average of the numbers.
-    """
-    total = sum(numbers)
-    average = total / len(numbers)
-    return average
-    ## Project Description
+Let's dive in and explore the world of Wi-Fi optimization together!
 
-    This project, `wifitools`, is a collection of utility functions for working with WiFi networks. It provides a set of tools that can be used to analyze, monitor, and troubleshoot WiFi connections.
+#STEP 1
 
-    ## Installation
-
-    To use `wifitools`, you need to have Python installed on your system. You can install it using the following command:
-
-    ```
-    pip install wifitools
-    ```
-
-    ## Usage
-
-    Once you have `wifitools` installed, you can import it into your Python script and start using its functions. Here's an example of how to calculate the average of a list of numbers using the `calculate_average` function:
-
-    ```python
-    from wifitools import calculate_average
-
-    numbers = [1, 2, 3, 4, 5]
-    average = calculate_average(numbers)
-    print(f"The average is: {average}")
-    ```
-
-    ## Documentation
-
-    For detailed information on each function provided by `wifitools`, please refer to the [official documentation](https://github.com/your-username/wifitools/docs).
-
-    We hope you find `wifitools` helpful for your WiFi-related tasks. If you have any questions or encounter any issues, please don't hesitate to reach out to us.
+Must must install these libary to continue:
+'pip install request'
+'pip install socket'
+'pip install pyfiglet'
